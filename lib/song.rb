@@ -3,7 +3,7 @@ class Song
   attr_reader :name
 
   SONGS = []
-  
+
   def initialize(name)
     @name = name
   end
@@ -12,5 +12,5 @@ class Song
     @artist
   end
 
-  
+
 end
